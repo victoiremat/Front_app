@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    background: #dcd5db;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.container{
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px #000000;
+}
