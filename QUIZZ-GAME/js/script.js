@@ -139,6 +139,23 @@ function selectAnswer(event){
         score++;
         scoreSpan.textContent=score
     }
+
+    setTimeout(()=>{
+        currentQuestionIndex++;
+//Check if there are more question of if the quiz is over
+        if(currentQuestionIndex<quizQuestions.length){
+            showQuestion()
+        }else{
+            showResult()
+        }
+    },1000)
+}
+
+function showResult(){
+    quizScreen.classList.remove("active")
+    resultScreen.classList.add("active")
+
+    finalScoreSpan.textContent=score;
 }
 
 
