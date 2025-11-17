@@ -162,3 +162,4 @@ function showResult(){
 function restartQuiz(){
     console.log("quiz re-started")
 }
+// hello
